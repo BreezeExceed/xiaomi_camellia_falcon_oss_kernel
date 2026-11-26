@@ -53,7 +53,7 @@ bash build-falcon.sh
 ## Build Output
 
 ``` text
-out/arch/arm64/boot/Image.gz-dtb
+out/arch/arm64/boot/Image.gz
 ```
 
 ## Disclaimer
@@ -61,6 +61,7 @@ out/arch/arm64/boot/Image.gz-dtb
 -   Intended for POCO M3 Pro 5G (camellian).
 -   Always back up your boot image before flashing.
 -   Flash at your own risk.
+-   Don't use dtb, it may cause bootloop.
 -   The developer is not responsible for any damage or data loss.
 
 ## Sources & Attributions
